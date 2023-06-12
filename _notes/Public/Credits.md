@@ -1,10 +1,12 @@
 ---
 title: Credits
 feed: hide
-date: 11-05-2022
+date: 12-06-2023
 permalink: /credits
 format: list
 ---
+
+-   [Hiran](https://hiran.in/index.html), who created [Jekyll Garden](https://jekyll-garden.github.io/).
 
 -   [Raghuveer](https://github.com/rgvr), who created [Simply Jekyll theme](https://github.com/rgvr/simply-jekyll)
 -   [Santosh Thottingal](https://github.com/santhoshtr) who introduced me to Digital Garden
