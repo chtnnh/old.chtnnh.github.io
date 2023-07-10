@@ -2597,6 +2597,7 @@ a.navbar-item,
   .navbar-end {
     justify-content: flex-end;
     padding-right: 1rem;
+    padding-left: 1rem;
     }
   .navbar-dropdown {
     background-color: var(--color-bg-sub);

@@ -32,10 +32,10 @@
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" style="padding-left: 0;"; href="{{ site.baseurl }}/index.html">
-          <h6> {{site.heading}}</h6></a>
+          <h6>{{site.heading}}</h6></a>
           <script src="{{ site.baseurl }}/assets/js/modeswitcher.js"></script>
           <script src="{{ site.baseurl }}/assets/js/Hamburger.js"></script>
-      <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
+      <div class="navbar-item navbar-dark-mode__mobile" onclick="modeSwitcher()">
         <div class="buttons">
           <a class="button is-text">
             <span class="icon is-small">
@@ -68,15 +68,15 @@
         <a href="https://twitter.com/chaitannah"  target="_blank" class="navbar-item">
           Twitter
         </a>
-      </div>
-      <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-text">
-              <span class="icon is-small">
-                <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img">
-              </span>
-            </a>
+        <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-text">
+                <span class="icon is-small">
+                  <img src="{{ '/assets/img/sun.svg' | relative_url }}" id="theme-toggle-img">
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
