@@ -45,6 +45,8 @@ GEM
       htmlbeautifier
       htmlcompressor
       jekyll
+    jekyll-time-to-read (0.1.2)
+      jekyll
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     katex (0.8.0)
@@ -101,6 +103,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-tidy
+  jekyll-time-to-read
   kramdown-math-katex
   tzinfo (~> 1.2)
   tzinfo-data

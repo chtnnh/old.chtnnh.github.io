@@ -62,6 +62,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-tidy
+  - jekyll-time-to-read
 
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
