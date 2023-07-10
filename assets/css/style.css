@@ -1,8 +1,4 @@
---- 
-layout: Stylesheet 
---- 
 @import "fruity.css";
-
 
 html,
 html[data-theme="light"] {
@@ -331,13 +327,15 @@ ul ul {
 /* List Feed */
 .list-feed {
     color: var(--color-text-main);
-    display: block;
+    display: flex;
+    flex-direction: row;
     padding: 0.5rem;
     border-bottom: 1px solid var(--color-border-light);
 }
 
 .list-feed:hover {
-    display: block;
+    display: flex;
+    flex-direction: row;
     border-bottom: 1px solid var(--color-text-link);
     background-color: var(--color-bg-sub);
 }
@@ -348,6 +346,10 @@ ul ul {
 
 .list-feed a:hover {
     color: var(--color-text-link);
+}
+
+.list-feed span {
+    font-size: 12px;
 }
 
 /* 08. Figures, Images, Code, Blockquotes, Tables */
